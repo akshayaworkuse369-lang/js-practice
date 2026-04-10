@@ -25,4 +25,32 @@ const c = true, b = false;
 console.log(c && b); // Logical AND
 console.log(c || b); // Logical OR
 console.log(10 > 5);
+console.log(10 === "10");
+let z=5;
+console.log(--z)
+const num = 5;
 
+if (num > 0) {
+    console.log("The number is positive.");
+};
+let number =-10
+
+if (num > 0)
+    console.log("The number is positive.");
+else
+    console.log("The number is negative");
+let nuber = 5;
+
+switch (nuber) {
+    case 0:
+        console.log("Nuber is zero.");
+        break;
+    case 1:
+        console.log("Nuber is one.");
+        break;
+    case 2:
+        console.log("Nuber is two.");
+        break;
+    default:
+        console.log("Nuber is greater than 2.");
+};
